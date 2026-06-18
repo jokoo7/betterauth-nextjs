@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run lint && next build",
+    "build:clean": "npm run build && rm -rf .next",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
