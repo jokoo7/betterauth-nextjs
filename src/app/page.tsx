@@ -66,7 +66,7 @@ export default function Home() {
               flex h-12 w-full items-center justify-center gap-2 rounded-full
               bg-foreground px-5 text-background transition-colors
               hover:bg-[#383838]
-              md:w-[158px]
+              md:w-39.5
               dark:hover:bg-[#ccc]
             "
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
@@ -87,7 +87,7 @@ export default function Home() {
               flex h-12 w-full items-center justify-center rounded-full border
               border-solid border-black/8 px-5 transition-colors
               hover:border-transparent hover:bg-black/4
-              md:w-[158px]
+              md:w-39.5
               dark:border-white/[.145]
               dark:hover:bg-[#1a1a1a]
             "
