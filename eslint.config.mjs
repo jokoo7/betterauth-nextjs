@@ -8,7 +8,7 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   {
-    extends: [betterTailwindcss.configs.recommended],
+    extends: [betterTailwindcss.configs.correctness],
     settings: {
       'better-tailwindcss': {
         entryPoint: 'src/app/globals.css',
